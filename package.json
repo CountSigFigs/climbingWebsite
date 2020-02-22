@@ -1,7 +1,7 @@
 {
   "name": "climbing-website",
   "version": "1.0.0",
-  "description": "",
+  "description": "climbing website project",
   "main": "indx.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,5 +9,10 @@
     "lite": "lite-server"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.12.9"
+  }
 }
