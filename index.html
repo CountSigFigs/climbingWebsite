@@ -4,11 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/e67aa9ba85.js" crossorigin="anonymous"></script>
 
     <title>Document</title>
 </head>
 <body>
-    <h1>Hello, world!</h1>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"><i class="fas fa-mountain"></i></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto">
+            <a class="nav-item nav-link active" href="#">Home<span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="#">Adventures</a>
+            <a class="nav-item nav-link" href="#">About</a>
+            <a class="nav-item nav-link disabled" href="#">Contact Us</a>
+          </div>
+        </div>
+      </nav>
+    <header class="cover">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mt-5">
+                    <span class="tagline">Your next adventure awaits</span>
+                </div>
+
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-8 text-center mt-5 mb-3 mx-auto">
+                <hr>
+                <h1><strong>Our Trips</strong></h1>
+                <p>Are you ready to make some memories? We took the time to find the best routes on Mt. Baker so you 
+                    don't have to. Our guides are trained to provide safe and responabile ascents.</p>
+            </div>
+        </div>
+        <div class="row mt-5 justify-content-center">
+            <div class="col-5 text-center mx-3" id="mountaineeringBackground">
+                <h3>Mountaineering</h3>
+            </div>
+            <div class="col-5 text-center mx-3" id="rockclimbingBackground">
+                <h3>Rock Climbing</h3>
+            </div>
+        </div>
+    </div>
 
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>

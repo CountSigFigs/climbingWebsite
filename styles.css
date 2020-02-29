@@ -1,0 +1,55 @@
+html, body, .cover{
+    width:100%;
+    height:100%;
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: whitesmoke;
+}
+h1{
+    font-size: 61px;
+}
+h3{
+    font-size: 35px;
+    color: whitesmoke;
+}
+p{
+    font-size: 20px;
+}
+hr{
+    width: 55px;
+    border: solid 3px red;
+    border-radius: 5px;
+}
+.cover{
+background-image: url('Resources/MtBaker_backcountry_skiing_4-e1497485717309.jpg');
+background-color: #cccccc;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.tagline{
+    font-size: 100px;
+    background-color: #000000;
+    color: whitesmoke;
+    opacity: .5;
+}
+
+#mountaineeringBackground{
+    background-image: url(Resources/giacomo-berardi-7BmVsu57nTw-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    border-radius: 5px;
+}
+#rockclimbingBackground{
+    background-image: url(Resources/jonathan-ouimet-qcXff4UhZ-4-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    border-radius: 5px;
+}
