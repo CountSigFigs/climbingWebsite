@@ -29,12 +29,7 @@ background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 }
-.navbar:onscrolldown{
-    display: false;
-}
-.navbar:onscrollup{
-    display: true;
-}
+
 .tagline{
     font-size: 100px;
     background-color: #000000;
@@ -75,4 +70,7 @@ a{
 }
 a:hover{
       color: red;
+}
+#contact{
+    margin-top: 50px;
 }
